@@ -104,7 +104,7 @@ nav{
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#founder">Founder</a>
-    <a href="#Industry">Industry</a>
+    <a href="#industry">Industry</a>
     <a href="#process">Process</a>
     <a href="#platform">Platform</a>
     <a href="#market">Market</a>
@@ -122,7 +122,7 @@ nav{
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#founder">Founder</a>
-    <a href="#Industry">Industry</a>
+    <a href="#industry">Industry</a>
     <a href="#process">Process</a>
     <a href="#platform">Platform</a>
     <a href="#market">Market</a>
@@ -131,7 +131,7 @@ nav{
   </div>
 
   <!-- Mobile Toggle -->
-  <div class="menu-toggle" id="menuToggle">🕸️</div>
+  <div class="menu-toggle" id="menuToggle">🎩</div>
 
 </nav>
 
@@ -462,93 +462,30 @@ document.querySelectorAll(".nav-links a").forEach(link=>{
   }
 }
 
-/* ================= ULTRA MOBILE OPTIMISATION ================= */
+/* ================= MOBILE ================= */
+
 @media(max-width:900px){
 
   .home-ultra{
-    padding:120px 20px 70px;
-    text-align:left;
-  }
-
-  .home-tag{
-    font-size:10px;
-    letter-spacing:0.25em;
-    line-height:1.5;
+    padding:120px 20px 80px;
   }
 
   .home-ultra h1{
-    font-size:26px;
-    line-height:1.3;
-    margin:16px 0 18px;
-  }
-
-  .home-divider{
-    width:70px;
-    height:2px;
-    margin-bottom:20px;
+    font-size:28px;
   }
 
   .home-description{
     font-size:14px;
-    line-height:1.6;
-    margin-bottom:30px;
   }
 
-  /* Buttons full width */
   .home-buttons{
     flex-direction:column;
     gap:14px;
-    margin-bottom:40px;
   }
 
-  .primary-btn,
-  .secondary-btn{
-    width:100%;
-    text-align:center;
-    padding:14px;
-    font-size:14px;
-  }
-
-  /* Metrics stacked executive style */
   .home-metrics{
     flex-direction:column;
-    gap:20px;
-  }
-
-  .metric-box{
-    border-left:3px solid #222;
-    padding:14px 0 14px 14px;
-    background:rgba(255,255,255,0.03);
-  }
-
-  .metric-box h3{
-    font-size:18px;
-  }
-
-  .metric-box p{
-    font-size:12.5px;
-  }
-
-}
-
-/* ================= EXTRA SMALL DEVICES ================= */
-@media(max-width:480px){
-
-  .home-ultra h1{
-    font-size:22px;
-  }
-
-  .home-description{
-    font-size:13px;
-  }
-
-  .primary-btn,
-  .secondary-btn{
-    font-size:13px;
-  }
-
-  .metric-box h3{
-    font-size:16px;
+    gap:25px;
   }
 
 }
@@ -844,120 +781,24 @@ document.querySelectorAll(".nav-links a").forEach(link=>{
   color:#666;
 }
 
-/* ================= ULTRA ABOUT MOBILE OPTIMISATION ================= */
+/* MOBILE */
 @media(max-width:900px){
 
   .about-ultra{
-    padding:80px 20px 70px;
-  }
-
-  /* Header */
-  .ultra-mini{
-    font-size:10px;
-    letter-spacing:0.25em;
+    padding:80px 20px;
   }
 
   .ultra-header h2{
-    font-size:24px;
-    line-height:1.3;
-    margin:16px 0;
+    font-size:26px;
   }
 
-  .ultra-line{
-    width:60px;
-    height:2px;
-    margin-bottom:20px;
-  }
-
-  .ultra-sub{
-    font-size:14px;
-    line-height:1.6;
-  }
-
-  /* Grid stack */
   .ultra-grid{
     grid-template-columns:1fr;
-    gap:40px;
-    margin-top:50px;
+    gap:50px;
   }
 
-  /* Content blocks */
-  .content-block{
-    margin-bottom:30px;
-  }
-
-  .content-block h3{
-    font-size:17px;
-    margin-bottom:10px;
-  }
-
-  .content-block p{
-    font-size:13.5px;
-    line-height:1.6;
-  }
-
-  /* Panel */
-  .ultra-panel{
-    padding-left:0;
-  }
-
-  .panel-strip{
-    display:none;
-  }
-
-  .panel-box{
-    padding:16px;
-    border-radius:8px;
-  }
-
-  .panel-box strong{
-    font-size:13px;
-  }
-
-  .panel-box span{
-    font-size:12px;
-  }
-
-  /* Impact section */
   .ultra-impact{
-    margin-top:50px;
     grid-template-columns:1fr;
-    gap:18px;
-  }
-
-  .impact-card{
-    padding:18px;
-    border-radius:8px;
-  }
-
-  .impact-card h4{
-    font-size:18px;
-  }
-
-  .impact-card p{
-    font-size:12.5px;
-  }
-
-}
-
-
-/* ================= EXTRA SMALL DEVICES ================= */
-@media(max-width:480px){
-
-  .ultra-header h2{
-    font-size:21px;
-  }
-
-  .ultra-sub{
-    font-size:13px;
-  }
-
-  .content-block p{
-    font-size:12.8px;
-  }
-
-  .impact-card h4{
-    font-size:16px;
   }
 
 }
@@ -1141,93 +982,23 @@ document.querySelectorAll(".nav-links a").forEach(link=>{
   line-height:1.6;
 }
 
-/* ================= PREMIUM MOBILE FOUNDER UPGRADE ================= */
+/* MOBILE */
 @media(max-width:900px){
 
   .founder-black{
-    padding:80px 20px 70px;
+    padding:80px 20px;
   }
 
-  /* Mini Label */
-  .founder-mini{
-    font-size:10px;
-    letter-spacing:0.25em;
-  }
-
-  /* Title */
   .founder-title{
-    font-size:24px;
-    line-height:1.3;
-    margin:18px 0;
+    font-size:26px;
   }
 
-  .founder-title span{
-    border-bottom:2px solid #fff;
-    padding-bottom:3px;
-  }
-
-  /* Divider */
-  .founder-line{
-    width:60px;
-    height:2px;
-    margin-bottom:25px;
-  }
-
-  /* Content */
-  .founder-content{
-    font-size:14px;
-    line-height:1.7;
-  }
-
-  .founder-main{
-    font-size:15px;
-    margin-bottom:18px;
-  }
-
-  /* Highlight */
-  .founder-highlight{
-    padding:16px;
-    margin:20px 0;
-    font-size:14px;
-    border-left:2px solid #fff;
-  }
-
-  /* Values */
   .founder-values{
-    margin-top:40px;
     grid-template-columns:1fr;
-    gap:18px;
-  }
-
-  .value-box{
-    padding:18px;
-    border-radius:8px;
-  }
-
-  .value-box h4{
-    font-size:14px;
-  }
-
-  .value-box p{
-    font-size:13px;
-  }
-
-}
-
-
-/* ================= EXTRA SMALL DEVICES ================= */
-@media(max-width:480px){
-
-  .founder-title{
-    font-size:21px;
   }
 
   .founder-content{
-    font-size:13px;
-  }
-
-  .value-box p{
-    font-size:12.5px;
+    font-size:14px;
   }
 
 }
@@ -1419,98 +1190,28 @@ document.querySelectorAll(".nav-links a").forEach(link=>{
   border-left:3px solid #000;
 }
 
-/* ================= PREMIUM MOBILE UPGRADE ================= */
+/* MOBILE */
 @media(max-width:900px){
 
   .ps-white{
-    padding:80px 20px 70px;
+    padding:70px 20px;
   }
 
-  /* Mini Label */
-  .ps-mini{
-    font-size:10px;
-    letter-spacing:0.25em;
-    display:block;
-    margin-bottom:10px;
-  }
-
-  /* Heading */
   .ps-heading{
     font-size:24px;
-    line-height:1.3;
-    margin:16px 0;
   }
 
-  .ps-heading span{
-    border-bottom:2px solid #000;
-    padding-bottom:3px;
-  }
-
-  /* Divider */
-  .ps-line{
-    width:60px;
-    height:2px;
-    margin-bottom:35px;
-  }
-
-  /* Grid stack */
   .ps-grid{
     grid-template-columns:1fr;
-    gap:25px;
+    gap:30px;
   }
 
-  /* Column card refinement */
   .ps-column{
-    padding:22px;
-    border-radius:8px;
-  }
-
-  .ps-column h3{
-    font-size:16px;
-    margin-bottom:14px;
-  }
-
-  /* List */
-  .ps-list li{
-    font-size:13px;
-    margin-bottom:10px;
-  }
-
-  .ps-list li::before{
-    top:7px;
-    width:5px;
-    height:5px;
-  }
-
-  /* Impact Box */
-  .ps-impact{
-    padding:14px;
-    font-size:13px;
-    margin-top:15px;
+    padding:25px;
   }
 
 }
 
-/* ================= EXTRA SMALL DEVICES ================= */
-@media(max-width:480px){
-
-  .ps-heading{
-    font-size:21px;
-  }
-
-  .ps-column{
-    padding:18px;
-  }
-
-  .ps-list li{
-    font-size:12.5px;
-  }
-
-  .ps-impact{
-    font-size:12.5px;
-  }
-
-}
 </style>
 <!-- ================= HOW IT WORKS – BLACK EXECUTION FLOW ================= -->
 <section class="howitworks-black" id="process">
@@ -1776,100 +1477,35 @@ document.querySelectorAll(".nav-links a").forEach(link=>{
   box-shadow:inset 0 0 0 1px rgba(255,255,255,0.05);
   pointer-events:none;
 }
-/* ================= ULTRA MOBILE REFINEMENT ================= */
+/* ================= MOBILE ================= */
 @media(max-width:900px){
 
   .howitworks-black{
-    padding:80px 20px 70px;
+    padding:70px 20px;
   }
 
-  /* Mini label */
-  .how-mini{
-    font-size:10px;
-    letter-spacing:0.25em;
-    display:block;
-    margin-bottom:10px;
-  }
-
-  /* Heading */
   .how-heading{
-    font-size:24px;
-    line-height:1.3;
-    margin-bottom:12px;
+    font-size:26px;
   }
 
-  .how-heading span{
-    border-bottom:2px solid #fff;
-    padding-bottom:3px;
+  .how-flow{
+    flex-direction:column;
+    gap:25px;
   }
 
-  /* Divider */
-  .how-line{
-    width:60px;
-    height:2px;
-    margin-bottom:20px;
-  }
-
-  /* Sub text */
-  .how-sub{
-    font-size:14px;
-    line-height:1.6;
-    margin-bottom:40px;
-  }
-
-  /* Step refinement */
-  .how-step{
-    padding:20px;
-    border-radius:8px;
-  }
-
-  .step-circle{
-    width:34px;
-    height:34px;
-    font-size:12px;
-    margin-bottom:12px;
-  }
-
-  .how-step h4{
-    font-size:15px;
-    margin-bottom:8px;
-  }
-
-  .how-step p{
-    font-size:13px;
-  }
-
-  /* Vertical connector cleaner */
   .flow-connector{
     width:2px;
-    height:22px;
-    margin:0 auto;
+    height:25px;
+    margin:auto;
   }
 
   .flow-connector::before{
     width:2px;
-    height:22px;
+    height:25px;
   }
 
-}
-
-/* ================= EXTRA SMALL DEVICES ================= */
-@media(max-width:480px){
-
-  .how-heading{
-    font-size:21px;
-  }
-
-  .how-sub{
-    font-size:13px;
-  }
-
-  .how-step{
-    padding:18px;
-  }
-
-  .how-step p{
-    font-size:12.5px;
+  .flow-connector::after{
+    display:none;
   }
 
 }
@@ -2183,111 +1819,26 @@ document.querySelectorAll(".nav-links a").forEach(link=>{
   color:#777;
 }
 
-/* ================= ULTRA MOBILE REFINEMENT ================= */
+/* ================= MOBILE ================= */
+
 @media(max-width:900px){
 
   .uk-market-ultra{
-    padding:80px 20px 70px;
+    padding:70px 20px;
   }
 
-  /* Tag */
-  .ultra-tag{
-    font-size:10px;
-    letter-spacing:0.25em;
-    display:block;
-    margin-bottom:10px;
-  }
-
-  /* Title */
   .ultra-title{
-    font-size:24px;
-    line-height:1.3;
-    margin-bottom:12px;
+    font-size:26px;
   }
 
-  .ultra-title span::after{
-    height:2px;
-    bottom:-4px;
+  .ultra-metrics,
+  .ultra-structure{
+    grid-template-columns:1fr;
   }
 
-  /* Divider */
-  .ultra-line{
-    width:60px;
-    height:2px;
-    margin:16px auto 20px;
-  }
-
-  /* Description */
-  .ultra-desc{
-    font-size:14px;
-    line-height:1.6;
-  }
-
-  /* Metrics */
-  .ultra-metric{
-    padding:22px 16px;
-    border-radius:8px;
-  }
-
-  .ultra-number{
-    font-size:24px;
-  }
-
-  .ultra-metric span{
-    font-size:12px;
-  }
-
-  /* Structure boxes */
-  .ultra-box{
-    padding:22px 18px;
-    border-radius:8px;
-  }
-
-  .ultra-box h3{
-    font-size:15px;
-  }
-
-  .ultra-box p{
-    font-size:13px;
-  }
-
-  /* Trends */
   .ultra-trends{
-    margin-top:30px;
-    padding-top:20px;
-  }
-
-  .trend-card{
-    gap:10px;
-  }
-
-  .trend-card strong{
-    font-size:12.5px;
-  }
-
-  .trend-card span{
-    font-size:11.5px;
-  }
-
-}
-
-/* ================= EXTRA SMALL DEVICES ================= */
-@media(max-width:480px){
-
-  .ultra-title{
-    font-size:21px;
-  }
-
-  .ultra-desc{
-    font-size:13px;
-  }
-
-  .ultra-number{
-    font-size:22px;
-  }
-
-  .ultra-box{
-    padding:18px;
+    flex-direction:column;
+    gap:15px;
   }
 
 }
@@ -2623,81 +2174,21 @@ document.querySelectorAll(".ultra-number").forEach(el=>{
   to{opacity:1; transform:translateY(0);}
 }
 
-/* ================= ULTRA PLATFORM MOBILE REFINEMENT ================= */
+/* responsive */
 @media(max-width:900px){
-
-  .platform-mini{
-    font-size:10px;
-    letter-spacing:0.25em;
-    display:block;
-    margin-bottom:10px;
+  .platform-ultra{
+    padding:80px 20px;
   }
-
   .platform-heading{
-    font-size:24px;
-    line-height:1.3;
-    margin-bottom:14px;
+    font-size:26px;
   }
-
-  .platform-heading span{
-    border-bottom:2px solid #fff;
+  .platform-grid{
+    grid-template-columns:1fr;
+    gap:25px;
   }
-
-  .platform-line{
-    width:60px;
-    height:2px;
-    margin-bottom:20px;
-  }
-
-  .platform-sub{
-    font-size:14px;
-    line-height:1.6;
-    margin-bottom:40px;
-  }
-
   .platform-box{
-    padding:22px;
-    border-radius:8px;
+    padding:25px;
   }
-
-  .box-number{
-    font-size:11px;
-    margin-bottom:8px;
-  }
-
-  .platform-box h4{
-    font-size:15px;
-    margin-bottom:8px;
-  }
-
-  .platform-box p{
-    font-size:13px;
-    line-height:1.5;
-  }
-
-  .floating-tag{
-    font-size:9px;
-    bottom:10px;
-    right:15px;
-  }
-
-}
-
-/* ================= EXTRA SMALL DEVICES ================= */
-@media(max-width:480px){
-
-  .platform-heading{
-    font-size:21px;
-  }
-
-  .platform-sub{
-    font-size:13px;
-  }
-
-  .platform-box{
-    padding:18px;
-  }
-
 }
 
 </style>
@@ -3042,97 +2533,35 @@ document.querySelectorAll(".ultra-number").forEach(el=>{
   font-weight:900;
 }
 
-/* ================= ADVANCED MOBILE REFINEMENT ================= */
+/* ================= MOBILE ================= */
+
 @media(max-width:900px){
 
-  /* Section spacing tighter */
   .finance-exec{
-    padding:70px 18px;
-  }
-
-  /* Header */
-  .finance-header{
-    margin-bottom:40px;
+    padding:70px 20px;
   }
 
   .finance-title{
-    font-size:24px;
-    line-height:1.3;
+    font-size:26px;
   }
 
-  .finance-desc{
-    font-size:14px;
-  }
-
-  /* Metric boxes stacked */
   .finance-metrics{
     flex-direction:column;
-    gap:15px;
   }
 
-  .metric-box{
-    padding:18px;
-  }
-
-  .metric-box strong{
-    font-size:12px;
-  }
-
-  .metric-box span{
-    font-size:13px;
-  }
-
-  /* Cards stacked clean */
   .finance-cards{
     grid-template-columns:1fr;
-    gap:20px;
-  }
-
-  .finance-card{
-    padding:22px;
-  }
-
-  .finance-card:hover{
-    transform:none; /* remove heavy hover on touch */
-    box-shadow:0 8px 20px rgba(0,0,0,0.05);
-  }
-
-  .amount{
-    font-size:22px;
-  }
-
-  /* Profit section */
-  .profit-section{
-    text-align:left;
   }
 
   .profit-values{
     flex-direction:column;
-    gap:8px;
-    font-size:13px;
-  }
-
-  /* Table mobile redesign */
-  .finance-table{
-    border-top:1px solid #000;
+    gap:6px;
+    text-align:left;
   }
 
   .row{
     grid-template-columns:1fr;
-    padding:14px 0;
-    gap:4px;
-  }
-
-  .row div{
-    font-size:13px;
-  }
-
-  .row.head{
-    display:none; /* hide header row for mobile */
-  }
-
-  .row:not(.head){
-    border-bottom:1px solid #eee;
+    gap:6px;
   }
 
 }
